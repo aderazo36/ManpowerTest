@@ -14,4 +14,7 @@ public class LoginPage {
     public static final Target LOGIN_BUTTON = Target
             .the("Login button")
             .locatedBy("button[type='submit']");
+    public static final Target START_NOW_BUTTON = Target
+            .the("Start_now_button")
+            .locatedBy("//span[normalize-space()='START NOW']");
 }
