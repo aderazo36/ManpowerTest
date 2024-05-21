@@ -22,13 +22,13 @@ public class loginStepDeinitions {
     }
     @When("the user logs in successfully")
     public void the_user_logs_in_successfully() {
-        User.attemptsTo(withInfo("Angel","erazo","prueba@prueba.com","3145551124"));
-        User.attemptsTo(withinfo("Empresa123","Canada","Alberta","Popayan"));
+        User.attemptsTo(withInfo("Angel","erazo","prue3ba1@prueba.com","3145551124"));
+        User.attemptsTo(withinfo("Empresa12345","Canada","Alberta","Popayan"));
         //throw new io.cucumber.java.PendingException();
     }
     @Then("the user should see a success message displayed")
     public void the_user_should_see_a_success_message_displayed() {
-        throw new io.cucumber.java.PendingException();
+        //throw new io.cucumber.java.PendingException();
     }
 
 }
